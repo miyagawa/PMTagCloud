@@ -116,7 +116,7 @@ var last_tl = s.getValue();
 document.getElementById('tl_'+last_tl).style.display = 'block';
 </script>
 
-<p class="footer">Data collected from <a href="http://www.kantei.go.jp/jp/abespeech/index.html">kantei.go.jp</a>, analyzed using <a href="http://www.perl.org/">Perl</a> with <a href="http://search.cpan.org/dist/HTML-TreeBuilder/">HTML::TreeBuilder</a>, <a href="http://mecab.sourcrforge.net/">mecab</a> and <a href="http://search.cpan.org/dist/Text-MeCab/">Text::MeCab</a>.
+<p class="footer">Copyright 2006 Tatsuhiko Miyagawa. Data collected from <a href="http://www.kantei.go.jp/jp/abespeech/index.html">kantei.go.jp</a>, analyzed using <a href="http://www.perl.org/">Perl</a> with <a href="http://search.cpan.org/dist/HTML-TreeBuilder/">HTML::TreeBuilder</a>, <a href="http://mecab.sourcrforge.net/">mecab</a> and <a href="http://search.cpan.org/dist/Text-MeCab/">Text::MeCab</a>.
 </p>
 
 </body>
