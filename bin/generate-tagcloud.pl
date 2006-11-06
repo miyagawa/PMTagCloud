@@ -80,10 +80,11 @@ __DATA__
 <script type="text/javascript" src="js/slider.js"></script>
 <link type="text/css" rel="StyleSheet" href="css/winclassic.css" />
 <style>
-.tl { display: none; line-height: 26px }
+.tl { display: none }
 body { font-size: 12px }
 .footer { font-size: 10px }
 [% css %]
+#htmltagcloud { line-height: 1 }
 </style>
 </head>
 <body>
