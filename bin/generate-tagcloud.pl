@@ -97,6 +97,23 @@ body { font-size: 12px }
    <input class="slider-input" id="slider-input-1"
     name="slider-input-1"/>
 </div>
+<br />
+
+<script type="text/javascript">
+google_ad_client = "pub-0854756127426271";
+google_ad_width = 728;
+google_ad_height = 100;
+google_ad_format = "728x90_as";
+google_color_border = "FFFFFF";
+google_color_bg = "FFFFFF";
+google_color_link = "0000FF";
+google_color_url = "000000";
+google_color_text = "000000";
+google_ad_channel ="2602048679";
+google_alternate_ad_url = "http://blog.bulknews.net/adsense_alt.cgi";
+</script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
 
 [% FOREACH c = clouds %]
 [% SET pm = c.pm -%]
@@ -117,7 +134,7 @@ var last_tl = s.getValue();
 document.getElementById('tl_'+last_tl).style.display = 'block';
 </script>
 
-<p class="footer">Copyright 2006 Tatsuhiko Miyagawa. Data collected from <a href="http://www.kantei.go.jp/jp/abespeech/index.html">kantei.go.jp</a>, analyzed using <a href="http://www.perl.org/">Perl</a> with <a href="http://search.cpan.org/dist/HTML-TreeBuilder/">HTML::TreeBuilder</a>, <a href="http://mecab.sourcrforge.net/">mecab</a> and <a href="http://search.cpan.org/dist/Text-MeCab/">Text::MeCab</a>.
+<p class="footer">Copyright 2006 Tatsuhiko Miyagawa. Data collected from <a href="http://www.kantei.go.jp/jp/abespeech/index.html">kantei.go.jp</a>, analyzed using <a href="http://www.perl.org/">Perl</a> with <a href="http://search.cpan.org/dist/HTML-Tree/">HTML::TreeBuilder</a>, <a href="http://mecab.sourceforge.net/">mecab</a> and <a href="http://search.cpan.org/dist/Text-MeCab/">Text::MeCab</a>.
 </p>
 
 </body>
